@@ -8,7 +8,7 @@
         "ms-python.python"
       ],
       "settings": {
-        "python.defaultInterpreterPath": "/opt/venv/bin/python"
+        "python.defaultInterpreterPath": "/usr/local/bin/python"
       }
     }
   }
