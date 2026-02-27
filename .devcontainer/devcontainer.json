@@ -9,5 +9,5 @@
       ]
     }
   },
-  "postCreateCommand": "pip install ipykernel && jupyter trust notebooks/*.ipynb"
+  "postCreateCommand": "pip install ipykernel"
 }
