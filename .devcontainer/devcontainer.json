@@ -1,6 +1,11 @@
 {
   "name": "Python Prework",
-  "image": "mcr.microsoft.com/devcontainers/python:3.13",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+    "ghcr.io/devcontainers/features/python:1": {
+      "version": "3.12"
+    }
+  },
   "customizations": {
     "vscode": {
       "extensions": [
