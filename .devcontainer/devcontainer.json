@@ -9,5 +9,5 @@
       ]
     }
   },
-  "postCreateCommand": "pip install ipykernel"
+  "postCreateCommand": "pip install ipykernel jupyter && python -m ipykernel install --user --name python3 --display-name 'Python 3.13' && jupyter kernelspec remove -f /usr/bin/python3 2>/dev/null; jupyter trust notebooks/*.ipynb"
 }
