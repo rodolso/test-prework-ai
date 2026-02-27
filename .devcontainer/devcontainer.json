@@ -1,17 +1,13 @@
 {
   "name": "Python Prework",
-  "image": "mcr.microsoft.com/devcontainers/python:3.13",
+  "image": "mcr.microsoft.com/devcontainers/python:1-3.12",
   "customizations": {
     "vscode": {
       "extensions": [
         "ms-toolsai.jupyter",
         "ms-python.python"
-      ],
-      "settings": {
-        "python.defaultInterpreterPath": "/usr/local/bin/python",
-        "jupyter.kernelPickerType": "mru"
-      }
+      ]
     }
   },
-  "postCreateCommand": "pip install ipykernel jupyter && python -m ipykernel install --user --name python3 --display-name 'Python 3.13' && jupyter trust notebooks/*.ipynb"
+  "postCreateCommand": "pip3 install ipykernel jupyter && jupyter trust notebooks/*.ipynb"
 }
