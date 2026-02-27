@@ -6,8 +6,12 @@
       "extensions": [
         "ms-toolsai.jupyter",
         "ms-python.python"
-      ]
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "jupyter.kernelPickerType": "mru"
+      }
     }
   },
-  "postCreateCommand": "pip install ipykernel jupyter && python -m ipykernel install --user --name python3 --display-name 'Python 3.13' && jupyter kernelspec remove -f /usr/bin/python3 2>/dev/null; jupyter trust notebooks/*.ipynb"
+  "postCreateCommand": "pip install ipykernel jupyter && python -m ipykernel install --user --name python3 --display-name 'Python 3.13' && jupyter trust notebooks/*.ipynb"
 }
