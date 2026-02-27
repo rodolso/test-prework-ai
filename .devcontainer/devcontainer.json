@@ -1,0 +1,13 @@
+{
+  "name": "Python Prework",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-toolsai.jupyter",
+        "ms-python.python"
+      ]
+    }
+  },
+  "postCreateCommand": "pip install ipykernel && jupyter trust notebooks/*.ipynb"
+}
