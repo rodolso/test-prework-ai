@@ -1,6 +1,11 @@
 {
-  "name": "Python Prework",
-  "build": { "dockerfile": "Dockerfile" },
+  "name": "AI Engineering Prework",
+  "build": { 
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  "workspaceFolder": "/workspace",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
   "customizations": {
     "vscode": {
       "extensions": [
