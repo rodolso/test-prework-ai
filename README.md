@@ -7,14 +7,11 @@
 
 ## ¿Cómo empiezo?
 
-**1. Pulsa el botón de abajo**
-El botón *Open in GitHub Codespaces* te llevará a la pantalla de configuración.
+**1. Pulsa el botón de abajo:** El botón *Open in GitHub Codespaces* te llevará a la pantalla de configuración.
 
-**2. Haz clic en el botón verde "Create codespace"**
-No cambies ninguna opción, simplemente confirma con el botón verde. ¡Fácil!
+**2. Haz clic en el botón verde "Create codespace":** No cambies ninguna opción, simplemente confirma con el botón verde. ¡Fácil!
 
-**3. Espera unos minutos ☕**
-El entorno se configura solo la primera vez. Cuando esté listo, abre la carpeta `notebooks/` y ¡a programar!
+**3. Espera unos minutos ☕:** El entorno se configura solo la primera vez. Cuando esté listo, abre la carpeta `notebooks/` y ¡a programar!
 
 ---
 
